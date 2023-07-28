@@ -36,6 +36,10 @@ h6,
   padding: 7rem 0;
 }
 
+.site-section1 {
+  padding: 1rem 0;
+}
+
 .filters a {
   color: #000;
   display: inline-block;
@@ -536,4 +540,10 @@ h6,
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+/*Additional*/
+.img-fluid1 {
+  max-width: 35%;
+  height: auto;
 }

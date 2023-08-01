@@ -36,9 +36,6 @@ h6,
   padding: 7rem 0;
 }
 
-.site-section1 {
-  padding: 1rem 0;
-}
 
 .filters a {
   color: #000;
@@ -544,6 +541,10 @@ h6,
 }
 
 /*Personal Additions*/
+
+.site-section1 {
+  padding: 1rem 0;
+}
 
 .img-fluid1 {
   max-width: 35%;

@@ -71,11 +71,15 @@
     function openModal(imgSrc) {
       modal.style.display = 'block';
       maximizedImg.src = imgSrc;
+
+      // Listen for clicks outside the maximized image to close the modal
+      document.addEventListener('click', closeModalOnClickOutside);
     }
 
     // Function to close the modal
     function closeModal() {
       modal.style.display = 'none';
+      // document.removeEventListener('click', closeModalOnClickOutside);
     }
 
     // Event listener to open the modal when an image is clicked
@@ -95,6 +99,12 @@
         closeModal();
       }
     });
+
+    // // Function to close the modal when clicking outside the modal content
+    // function closeModalOnClickOutside(event) {
+    //   if (!modalContent.contains(event.target)) {
+    //     closeModal();
+    //   }
   </script>
 </body>
 </html>

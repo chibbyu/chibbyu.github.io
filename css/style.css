@@ -584,5 +584,9 @@ h6,
 }
 
 .oblong-hover span:hover {
-  background-color: rgba(248, 249, 250, 0.7); /* Change the opacity value here (0.7 in this example) */
+  background-color: rgba(248, 249, 250, 0.2); /* Change the opacity value here (0.7 in this example) */
+}
+
+.oblong-hover span:active {
+  text-decoration: underline; /* Change the opacity value here (0.7 in this example) */
 }

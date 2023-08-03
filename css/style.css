@@ -381,11 +381,12 @@ h6,
 
 .custom-navmenu .custom-menu li a {
   color: #fff;
-  padding: 10px 0 !important;
+  padding: 1px 0 !important;
 }
 
 .custom-navmenu .custom-menu li a:hover {
   text-decoration: none;
+
 }
 
 .custom-navmenu .custom-menu li.active a {
@@ -564,4 +565,24 @@ h6,
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
+}
+
+/* Custom Menu Hover */
+.oblong-hover {
+  display: inline-block;
+  position: relative;
+  padding: 0px; /* Adjust this padding as needed */
+  /* Optional: Set a fixed width to control the width of the link */
+  /* width: 100px; */
+}
+
+.oblong-hover span {
+  display: inline-block;
+  padding: 0px 10px; /* Adjust this padding as needed */
+  border-radius: 15px; /* Adjust this value to make it more oblong */
+  transition: background-color 0.3s;
+}
+
+.oblong-hover span:hover {
+  background-color: rgba(248, 249, 250, 0.7); /* Change the opacity value here (0.7 in this example) */
 }

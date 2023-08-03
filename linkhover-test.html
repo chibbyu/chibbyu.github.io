@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oblong Hover Visualization</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for the oblong hover visualization */
+    .oblong-hover {
+      display: inline-block;
+      position: relative;
+      padding: 10px;
+      border-radius: 25px; /* Adjust this value to make it more oblong */
+      transition: background-color 0.3s;
+    }
+
+    .oblong-hover:hover {
+      background-color: #f8f9fa; /* Change this to the color you desire */
+    }
+
+    /* Optional: Add some margin or padding to space out the links */
+    .link-container {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="link-container">
+    <a href="#" class="oblong-hover">Link 1 with a long line</a>
+  </div>
+
+  <div class="link-container">
+    <a href="#" class="oblong-hover">Link 2 more long testing</a>
+  </div>
+
+  <div class="link-container">
+    <a href="#" class="oblong-hover">Link 3</a>
+  </div>
+
+</body>
+</html>

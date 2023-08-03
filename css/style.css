@@ -558,3 +558,7 @@ h6,
   object-fit: cover;
   object-position: center;
 }
+
+.carousel-item1 {
+  transition: opacity 0.6s ease-in-out;
+}

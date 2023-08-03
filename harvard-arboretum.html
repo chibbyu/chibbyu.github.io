@@ -294,6 +294,17 @@
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
 
+  <!-- Modal Scripts -->
+  <script>
+    $(document).ready(function() {
+        // When the modal is shown, find the index of the clicked image and set the carousel to that index
+        $('#imageCarouselModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget); // Button that triggered the modal
+            var slideIndex = button.data('slide-to'); // Extract the index of the clicked image
+            $('#imageCarousel').carousel(slideIndex);
+        });
+    });
+  </script>
 </body>
 
 </html>
